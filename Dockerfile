@@ -17,6 +17,7 @@ RUN apk del .tmp-build-deps
 RUN mkdir /app
 WORKDIR /app
 COPY ./app /app
+# ADD ./app /app
 
 # -D only for running apps only
 # user user switches to user
