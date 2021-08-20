@@ -23,6 +23,7 @@ COPY ./app /app
 # user user switches to user
 # if we don't use this, we will use root user, which is bad for security
 RUN adduser -D user
+# RUN chown user:user -R /app/
 USER user
 
 
