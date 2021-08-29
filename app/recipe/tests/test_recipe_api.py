@@ -272,11 +272,6 @@ class PrivateRecipeApiTests(TestCase):
 		self.assertIn(serializer2.data, res.data)
 		self.assertNotIn(serializer3.data, res.data)
 
-	
-
-
-
-
 
 class RecipeImageUploadTests(TestCase):
 	""""""
